@@ -1,0 +1,23 @@
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.personal-logo {
+    width: 150px;
+}
+
+.social-logo {
+    width: 35px;
+}
+
+.tech-logo {
+    width: 25px;
+}
+
+#heading {
+    display: inline;
+}
+
+.current-page {
+    background-color: turquoise;
+}
