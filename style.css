@@ -1,5 +1,9 @@
-p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+* {
+    margin: 0px;
+}
+
+p, h1 {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .personal-logo {
@@ -21,3 +25,27 @@ p {
 .current-page {
     background-color: turquoise;
 }
+
+.landing-page-container {
+    border-style: solid;
+    max-height: 1000px;
+    height: 70vh;
+    position: relative;
+    text-align: center;
+}
+
+.landing-background {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    
+}
+
+.landing-page-text {
+    position: absolute;
+    top: 60px;
+    text-align: left;
+}
+
