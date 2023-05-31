@@ -1,0 +1,279 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;  /* The width and height of an element is true to the dimensions assigned to "width" and "height" */
+    text-decoration: none;
+    color: white; 
+}
+
+/* .landing-page {
+    position: relative;
+    height: 100%;
+    background-color: blue;
+} */
+
+.navigation {
+    position: fixed; 
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 5px 5%;
+    background-color: transparent; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+
+}
+
+.logo {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.nav-bar a {
+    margin-left: 35px;
+    color: white; 
+    transition: 0.3s;
+}
+
+.nav-bar a:hover,
+.nav-bar a.active {
+    color: #FFC300;
+    transition: .5s;
+}
+
+.nav-bar a.active {
+    text-decoration: overline;
+}
+
+body {
+    background-color: #003566;
+}
+
+.landing-page {
+    display: flex;
+    height: 100vh;
+    background: url('potential-assets/landing-avatar.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 0px 10%; 
+    
+}
+
+.landing-content {
+    max-width: 60%; 
+}
+
+.landing-content h1 {
+  font-size: 45px;
+  font-weight: 700px;
+  line-height: 1.2; /* line spacing */
+}
+
+.landing-content h3 {
+    font-size: 15px;
+    margin: 20px 0 40px;
+} 
+
+.landing-content p {
+    font-size: 17px;
+    font-weight: 0;
+    margin: 20px 0 40px;
+}
+
+#front-end-dev {
+    color: #FFC300;
+}
+
+.landing-content .btn-box {
+    display: flex; 
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;  
+}
+
+#btn-box {
+    position: relative;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* turns elements into inline  */
+    height: 100%; /* redundnat or what? */  
+    background: #FFC300;
+    border: 2px solid #FFC300;
+    border-radius: 8px; /* rounding the edges of a border  */
+    font-size: 17.5px; 
+    color: #003566;
+    font-weight: 600; /* button text boldness */
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+#btn-box:hover {
+    color: #FFC300;
+}
+
+.landing-buttons a {
+    color: #003566;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.landing-buttons #btn-box:nth-child(2) {
+    background: transparent;
+    color: #FFC300;
+    margin-left: 15px;
+}
+
+.landing-buttons #btn-box:nth-child(2):hover {
+    color: #003566;
+}
+
+.landing-buttons #btn-box:nth-child(2)::before {
+    background-color: #FFC300;
+}
+
+#btn-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #003566;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+#btn-box:hover::before {
+    width: 100%;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: flex;
+}
+
+.social-logo {
+    width: 40px;
+}
+
+
+/* Web-page downscale responsiveness */
+
+@media screen and (max-width: 900px) {
+    .landing-content {
+       width: 50%;
+        }
+}
+
+
+@media screen and (max-width: 900px) {
+    .landing-buttons #btn-box:nth-child(2) {
+        margin-left: 0px;
+        }
+}
+
+/* iPhone Responsiveness */
+
+@media screen and (max-width: 390px) {
+    .landing-page {
+    display: flex;
+    position: absolute;
+    height: 400px;
+    top: 275px;
+    bottom: 
+    
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .landing-content {
+        display: inline;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .landing-buttons #btn-box:nth-child(2) {
+    margin-left: 0px;
+    }
+}
+
+/* @media screen and (max-width: 800px) {
+    .landing-content {
+        max-width: 100%;
+    }
+} */
+
+
+
+/* RESUME PAGE */
+
+/* .resume-header {
+    background-color: red;
+    height: 350px;
+}
+
+.resume-intro {
+    background-color: green; 
+    position: relative;
+    flex-wrap: wrap;
+    top: 75px;
+    height: 350px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.resume-intro h1 {
+   position: relative;
+   display: block;
+   line-height: 2;
+}
+
+.avatar-circle {
+    position: relative;
+    display: inline;
+    justify-content: center;
+    height: 150px;
+    background-color: teal;
+} */
+
+
+------
+
+.resume-header {
+
+}
+
+.resume-intro {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 350px;
+    top: 75px;
+    background-color: teal;
+}
+
+.resume-intro h1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.resume-intro p {
+    text-align: center;
+}
+
+.avatar-circle {
+    height: 150px;
+}
