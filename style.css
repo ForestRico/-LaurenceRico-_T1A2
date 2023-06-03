@@ -418,7 +418,7 @@ body {
     display: flex;
     position: relative;
     top: 75px;
-    background-image: url(potential-assets/blueprint-bg.jpg);
+    background-image: url(assets/blueprint-bg.jpg);
     background-position: center ;
     height: auto;
     border-bottom: 4px solid #FFC300;
