@@ -6,6 +6,7 @@
     /* The width and height of an element is true to the dimensions assigned to "width" and "height" */
     text-decoration: none;
     color: white;
+    transition: all .6s ease;
 }
 
 /* Web-page navigation bar settings */

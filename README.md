@@ -1,15 +1,26 @@
 # Laurence Rico A1T2 Project : Portfolio Website
 ## __Links__ : 
-### URL to Portfolio Website : www. 
-### GitHub Repository : www.
-### Presentation Video : www. 
+### [Link to Portfolio Website](https://647c2ca887b25e77a335203d--celadon-licorice-0f4fbd.netlify.app/index.html) 
+### [Link to GitHub Repository](https://github.com/ForestRico/-LaurenceRico-_T1A2)
+### [Link to Video Overview](https://youtu.be/U6hiTN4AAd4) 
 
 <BR>
 
 ## __Tech Stack__ : 
-
+Markup Languages :
 * HTML5
 * CSS-3
+
+Deployment Platform
+* Netlify
+
+Other Programs :
+* VS Code (Source Code Editor)
+* Figma (Wireframing)
+* Draw.io (Sitemap)
+* Photoshop (Graphics)
+* Powerpoint (Slide Deck and Presentation)
+
 <BR>
 
 ## __Descriptions__ :  
