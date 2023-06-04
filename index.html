@@ -3,51 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=sdf, initial-scale=1.0">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
     <title>Home Page</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
+<!-- Navation Bar Section  -->
+
     <section class="nav-bar">
-        <div>
-            <img class="personal-logo" src="assets\lr-logo.png" alt="Laurence-Rico-Logo">
-            <ul>
-                <a class="current-page" href="Home">Home</a>
-                <a href="resume.html">Resume</a>
-                <a href="About Me">About Me</a>
-                <a href="Projects">Projects</a>
-            </ul>
+        <div class="navigation">
+            <h2><a href="#" class="logo">Laurence Rico</a></h2>
+                <div class="nav-list">
+                    <a class="nav-word" id="active" href="home.html">Home</a>
+                    <a class="nav-word" href="portfolio.html">Portfolio</a>
+                    <a class="nav-word" href="about-me.html">About Me</a>    
+                    <a class="nav-word" href="resume.html">Resume</a>
+                    <a class="nav-word" href="blog.html">Blog</a>
+                    <span class="menu-button">
+                        <button id="menu-button"><img id="menu-icon" src="assets/menu-list.png" alt="side-menu-btn">
+                        </button> 
+                    </span>
+                </div>
         </div>
     </section>
 
+<!-- Landing-Page Section -->
 
     <section class="landing-page">
-        <div>
-            <h1>Front-end Developer</h1>
-            <p>Hello my name is Laurence and i'm gay as fuck, nah jokes im an aspiring web-devloper looking 
-                to solve real-world problems through tech and all that shabam </p>
-            <img class="social-logo" src="assets\linkedin.png" alt="linkedin-logo">
-            <img class="social-logo" src="assets\github.png" alt="github-logo">
+        <div class="landing-content">
+            <h1>Hello, i'm Laurence.</h1>
+            <h2 id="front-end-dev">Front-end Developer</h2>
+            <p>I transform creative ideas into practical web applications</p>
+            <div class="landing-buttons">
+                <a id="btn-box" href="resume.html">Contact Me</a>
+                <a id="btn-box" href="portfolio.html">View Portfolio</a>
+            </div>
+                <div class="media-icons">
+                    <a class="social-logo" href="https://www.linkedin.com/in/laurence-rico-560664244/"><img src="assets/linkedin.png" alt="linkedin-icon"></a>
+                    <a class="social-logo" href="https://github.com/ForestRico"><img src="assets/github.png" alt="github-icon"></a>
+                    <a class="social-logo" href="https://mail.google.com/mail/u/0/#inbox"><img src="assets/gmail.png" alt="gmail-icon"></a>
+                </div>
+                <div class="tech-stack">                   
+                    <div class="tech-stack-wrapper"><p>Tech<br> Stack</p></div>
+                        <img src="assets/html.png" alt="html-icon">
+                        <img src="assets/css-3.png" alt="css-icon">
+                        <img src="assets/python.png" alt="python-icon">
+                        <img src="assets/ruby.png" alt="ruby-icon">
+                </div>
+                <div class="landing-bg">
+                <img src="assets/landing-avatar-square.png" alt="landing-page-avatar-background">
+                </div>
         </div>
     </section>
 
-    <secion class="skill-set">
-        <div>
-            <h4 id="heading">Tech Stack</h4>
-            <img class="tech-logo" src="assets\html.png" alt="html-logo">
-            <img class="tech-logo" src="assets\css-3.png" alt="css-3-logo">
-            <img class="tech-logo" src="assets\python.png" alt="python-logo">
-            <img class="tech-logo" src="assets\ruby.png" alt="ruby-logo">
-        </div>
-    </secion>
 
 
 
+    
 </body>
 </html>
