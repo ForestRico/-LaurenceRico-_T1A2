@@ -1,4 +1,4 @@
-# Laurence Rico A1T2 Project : Portfolio Website
+# Laurence Rico T1A2 Project : Portfolio Website
 ## __Links__ : 
 ### [Link to Portfolio Website](https://647c2ca887b25e77a335203d--celadon-licorice-0f4fbd.netlify.app/index.html) 
 ### [Link to GitHub Repository](https://github.com/ForestRico/-LaurenceRico-_T1A2)
