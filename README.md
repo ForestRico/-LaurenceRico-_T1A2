@@ -22,7 +22,7 @@ The aim of this project is to create a personal portfolio website showcasing my 
 
 __Target Audience__
 
-
+The target audience for this project is primarily employers in the tech industry, however, it is open all people.
 
 __Functionality & Features__
 
